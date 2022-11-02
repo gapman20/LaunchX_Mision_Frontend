@@ -1,0 +1,19 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor{
+    min-height: 400px;
+    background-color: #1cd3d3;
+    display: flex;
+    justify-content: space-around; /* horizontal */
+    align-items: center; /* vertical */
+    flex-wrap: wrap;
+}
+
+.elemento{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    border: white solid 5px ;
+    padding: 10px;
+}
