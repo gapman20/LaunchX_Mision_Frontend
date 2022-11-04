@@ -91,3 +91,56 @@ else if( number1 == number2 || number1 < 3){
 else {
   console.log("El número 2 es mayor que número 1");
 }
+
+/* Ciclo condicional  */
+
+console.log("\n****** While ******\n");
+
+let numberWhile = 5;
+
+while (numberWhile <= 12) {
+  console.log(numberWhile);
+  numberWhile = numberWhile + 2;
+}
+
+console.log("Aqui ya salio del While " + numberWhile);
+
+/* Ciclo condicional de una interacion minimo */
+
+console.log("\n***** Do While *****\n");
+let numberDoWhile = 22;
+do {
+  numberDoWhile = numberDoWhile + 2;
+  console.log(numberDoWhile);
+} while (numberDoWhile < 20);
+console.log("Aqui sale del Do While" + numberDoWhile);
+
+/* Ciclo for con interacion controlada */
+
+console.log("n\***** For *****\n");
+let numeroFor = 0;
+for (let numberFor ; numberFor <=12; numeroFor = numberFor + 1) {
+  console.log(numberFor);
+  
+}
+
+console.log("Aqui salimos del for " + numeroFor);
+
+/* Opciones para evitar anidar condicionales */
+
+console.log("\n***** Switch *****");
+switch (prompt("¿Como esta el clima?")) {
+  case "lluvioso":
+    console.log("No te vatas a mojar");
+    break;
+  case "soleado":
+    console.log("Ponte bloqueador");
+    break;
+  case "nublado":
+    console.log("Tapate bien");
+    break;
+
+  default:
+    console.log("No se como esta el clima");
+    break;
+}
