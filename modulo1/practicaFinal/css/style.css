@@ -30,7 +30,14 @@
     padding-bottom: 10px;
 }
 
-#title_menu{
+.container_menu{
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* #title_menu{
     padding-bottom: 10px;
 }
 
@@ -40,7 +47,10 @@
     max-width: 900px;
 }
 
+.card_content_flavor{
+}
+ */
 .img_vanilla{
-    max-width: 100%;
+    max-width: 50vh;
     clip-path: inset(20% 0 10% 0);
 }
